@@ -1,0 +1,74 @@
+body{
+background-color: ('hero img.jpeg') 
+font-size: 20px;
+margin:15px;
+padding: 15px  
+}
+
+h1{
+      color: blue;
+}
+
+p{
+      color:rgb(45, 109, 45);
+}
+
+li {
+      color: blue;
+}
+
+.container{
+display: grid;
+column-gap:10px;
+grid-template-columns: auto auto auto auto;
+background-color:pink;
+padding: 2px;
+}
+
+.container>div{
+background: color #f1f1f1;
+font-size:20px;
+text-align: center;
+padding: 5px;
+border: 5px solid black;
+}
+
+
+image{
+height: 200px;
+width: 200px;
+}
+
+nav ul{
+display: flex;
+padding: 10px;
+gap: 14px;
+list-style: none;
+background-color:grey;
+}
+
+nav ul a{
+font-family: arial;
+font-size: 18px;
+font-weight: bold;
+padding: 20px;
+text-align:center;
+color;white;
+text-decorations:none;
+}
+
+form{
+      background-color:white;
+      font-size:40px;
+      font-weight:bold;
+      width:300px;
+
+}
+
+button{
+      width:100%;
+      padding:10px;
+      background-color:grey;
+      color:aqua;
+      cursor:pointer;
+}
